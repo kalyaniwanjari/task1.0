@@ -1,0 +1,430 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*navigation*/
+
+.navigation{
+    background-color: #faf8f4;
+    overflow: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navigation a{
+    float: left;
+    color: #3f3f3d;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 4px;
+}
+
+.navigation a:hover{
+    background-color:  #3f3f3d;
+    color: #faf8f4;
+}
+
+
+.navigation-right{
+    float: right;
+}
+
+.navigation .btn1{
+    border: 2px solid #3f3f3d;
+    background-color: #faf8f4;
+    padding: 16px 28px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.btn1:hover{
+    background-color: #3f3f3d;
+    color: #faf8f4;
+}
+/*section*/
+
+
+
+
+/*home*/
+
+
+#Home{
+    background-color: #faf8f4;
+    display: flex-end;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.Home .image1{
+    
+    justify-content: left; 
+    align-items: center;
+    width: 100%; 
+    margin-left: auto;
+    margin-right: 30px;
+    max-width: 750px;
+    background-color: #faf8f4; 
+    overflow: hidden; 
+}
+
+.Home .image1 img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+    border-radius: 8px; 
+    padding-top: 5%;
+    
+}
+
+/* Styling for the first part of the word */
+.part1 {
+    color: #b16431;
+    font-size: 110px;
+}
+
+/* Styling for the second part of the word */
+.part2 {
+    color: #000; 
+    font-size: 110px;
+}
+
+.Home .words p{
+    padding-left: 50px;
+    margin-top: -25%;
+}
+
+#handmade{
+    margin-bottom: 20px;
+}
+
+/* bottom two image */
+
+.Home .image2 {
+    display: flex;
+    gap: 20px;
+    padding-top: 31%;
+    padding-left: 50px;
+}
+
+.Home .image2 img {
+    width: 100%;
+    max-width: 130px;
+    height: auto;
+    display: block;
+    border-radius: 30px; 
+    overflow: hidden;
+    
+}
+
+
+/*text*/
+
+
+
+
+
+/* product */
+
+#product{
+    display: flex;
+    background-color: #ffff;
+    display: flex-end;
+    height: 100vh;
+    padding: 10px;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 10000px;
+}
+
+.text-side {
+    margin-right: 20px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 65px;
+    padding-left: 50px;
+}
+
+.product .image3 {
+    display: flex;
+    gap: 20px;
+    padding-top: 5%;
+    padding-left: 55px;
+}
+
+.product .image3 img{
+    width: 100%;
+    max-width: 430px;
+    max-height: 600px;
+}
+
+
+.part4 {
+    color: #b16431;
+    font-size: 50px;
+}
+
+.part3 {
+    color: #000; 
+    font-size: 50px;
+}
+
+.heading2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+
+    
+}
+
+.learn .btn3{
+    border: 2px solid #3f3f3d;
+    background-color: #faf8f4;
+    padding: 16px 28px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.btn3:hover{
+    background-color: #3f3f3d;
+    color: #faf8f4;
+}
+
+
+.heading2text{
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.product .skew{
+    transform: skew(15deg,160deg);
+    width: 100%;
+    max-width: 120px;
+    height: 100%;
+    max-height: 300px;
+    border-radius: 15px;
+    overflow: hidden; 
+    padding-top: 20%;
+
+}
+
+
+/* Shop */
+
+#Shop{
+    background-color: #faf8f4;
+    display: flex-end;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.part6 {
+    color: #b16431;
+    font-size: 50px;
+}
+
+.part5 {
+    color: #000; 
+    font-size: 50px;
+}
+
+
+
+.Shop .shopheading{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    
+}
+
+.grid-item {
+    background-color: #ffff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.grid-item .gridimage{
+    width: 100%;
+    max-width: 900px;
+    height: 100%;
+    max-height: 400px;
+}
+
+.btn6{
+    border: 2px solid #3f3f3d;
+    background-color: #ffffff;
+    padding: 16px 42%;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 3px;
+    
+}
+
+.btn6:hover{
+    background-color: #3f3f3d;
+    color: #faf8f4;
+}
+
+/* About */
+
+#About{
+    background-color: #ffff;
+    display: flex-end;
+    justify-content: center;
+    align-items: center;
+    height: 128vh;
+    padding: 15px;
+}
+
+.part8 {
+    color: #b16431;
+    font-size: 50px;
+}
+
+.part7 {
+    color: #000; 
+    font-size: 50px;
+}
+
+.About .shopheading2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.gridshop{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.text-side2 {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    width: 100%;
+    max-width: 1000px;
+    padding-left: 10%;
+}
+
+.text-side2 .productheading{
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    width: 100%;
+    max-width: 150px;
+}
+
+.text-side2 .productinfo{
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    width: 100%;
+    max-width: 700px;
+}
+
+.text-side2 .sideimage{
+    width: 100%;
+    max-width: 200px;
+    height: 100%;
+    max-height: 200px;
+}
+
+text-content{
+    flex: 1;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+
+/*Contact*/
+
+#Contact{
+    display: flex;
+    background-color: #faf8f4;
+    display: flex-end;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100vh;
+    padding: 40px;
+    padding-left: 6%;
+    flex-direction: row;
+}
+
+
+.leftcontact, .rightcontact{
+    flex: 1;
+    margin: 10px;
+}
+
+.contacttext {
+    font-size: 16px;
+    color: #3f3f3d;
+}
+
+.contactimage {
+    max-width: 100%;
+    height: auto;
+}
+
+.rightheading {
+    font-size: 24px;
+}
+
+.righttext {
+    font-size: 16px;
+}
+
+.part10 {
+    color: #b16431;
+    font-size: 50px;
+}
+
+.part9 {
+    color: #000; 
+    font-size: 50px;
+}
+
+
+
+
+
